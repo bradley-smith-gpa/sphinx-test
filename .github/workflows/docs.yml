@@ -42,6 +42,10 @@ jobs:
         run: |
           cd docs
           make html
+      - name: Navigate to Docs Dir
+        run: |
+          cd docs/html
+          pwd
       - name: Save current working directory
         run: |
           echo "DOCS_DIR=$(pwd)" >> $GITHUB_ENV
