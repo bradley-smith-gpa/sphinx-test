@@ -44,8 +44,9 @@ jobs:
           make html
       - name: Save docs directory
         run: |
-          echo "DOCS_DIR=$(pwd)/docs/html" >> $GITHUB_ENV
-          echo "DOCS_DIR=$(pwd)/docs/html"
+          echo "DOCS_DIR=$(pwd)/docs/docs/html" >> $GITHUB_ENV
+          echo "DOCS_DIR=$(pwd)/docs/docs/html"
+          ls
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.7
         with:
