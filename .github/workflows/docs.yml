@@ -46,11 +46,10 @@ jobs:
         run: |
           export DOCS_DIR=$(pwd)
           printenv
-          echo "::set-env name=DOCS_DIR::$DOCS_DIR"
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.7
         with:
-          path: echo $docs_dir
+          path: echo $(pwd)
   
 
   deploy:
