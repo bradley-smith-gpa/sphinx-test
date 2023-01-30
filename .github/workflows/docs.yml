@@ -44,12 +44,11 @@ jobs:
           make html
       - name: Save current working directory
         run: |
-          export DOCS_DIR=$(pwd)
-          printenv
+          echo "DOCS_DIR=$(pwd)" >> $GITHUB_ENV
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.7
         with:
-          path: echo $(pwd)
+          path: echo "${{env.DOCS_DIR}}"
   
 
   deploy:
