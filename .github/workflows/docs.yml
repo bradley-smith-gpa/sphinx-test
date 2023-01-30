@@ -38,16 +38,19 @@ jobs:
         run: |
           python -m pip install --upgrade pip
           pip install -r requirements.txt
-      - name: Output Current Working Directory
-        run: pwd
       - name: Build Docs
         run: |
           cd docs
           make html
+      - name: Save current working directory
+        run: |
+          export DOCS_DIR=$(pwd)
+          printenv
+          echo "::set-env name=DOCS_DIR::$DOCS_DIR"
       - name: Upload GitHub Pages artifact
         uses: actions/upload-pages-artifact@v1.0.7
         with:
-          path: docs/html
+          path: echo $docs_dir
   
 
   deploy:
