@@ -6,10 +6,10 @@
 Documentation Overview
 ===================================
 
-**ifrs16** (/lu'make/) is a Python package to make simple lease calculations.
-It pulls data from the `Open Food
-Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
-*intuitive* API.
+**ifrs16** is a Python package to make simple lease calculations
+with respect to `IFRS 16`_.
+
+.. _`IFRS 16`: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-16-leases/
 
 .. note::
 
