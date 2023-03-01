@@ -15,14 +15,6 @@ Facts database <https://world.openfoodfacts.org/>`_ and offers a *simple* and
 
    This project is under active development.
 
-
-Indices and tables
-==================
-
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
-
 Contents
 --------
 
