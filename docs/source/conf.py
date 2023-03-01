@@ -20,7 +20,7 @@ sys.path.insert(0, source_code_abs_path)
 
 # -- Project information -----------------------------------------------------
 
-project = 'Sphinx Test'
+project = 'ifrs16'
 copyright = '2023, Bradley Smith'
 author = 'Bradley Smith'
 
