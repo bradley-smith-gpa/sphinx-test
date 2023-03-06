@@ -14,7 +14,6 @@ import os
 import sys
 source_code_relative_path = '../..'
 source_code_abs_path = os.path.abspath(source_code_relative_path)
-print(source_code_abs_path)
 sys.path.insert(0, source_code_abs_path)
 
 
