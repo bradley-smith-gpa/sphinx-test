@@ -15,6 +15,7 @@ from pathlib import Path
 source_code_relative_path = Path('../..')
 source_code_abs_path = source_code_relative_path.resolve()
 sys.path.insert(0, f'{source_code_abs_path}')
+from project import __version__
 
 
 # -- Project information -----------------------------------------------------
@@ -22,6 +23,7 @@ sys.path.insert(0, f'{source_code_abs_path}')
 project = 'ifrs16'
 copyright = '2023, Bradley Smith'
 author = 'Bradley Smith'
+version = __version__
 
 
 # -- General configuration ---------------------------------------------------

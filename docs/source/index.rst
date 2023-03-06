@@ -7,7 +7,7 @@ Documentation Overview
 ===================================
 
 **ifrs16** is a Python package to make simple lease calculations
-with respect to `IFRS 16`_.
+with respect to `IFRS 16`_. This is version |version|.
 
 .. _`IFRS 16`: https://www.ifrs.org/issued-standards/list-of-standards/ifrs-16-leases/
 
