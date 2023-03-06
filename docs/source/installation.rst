@@ -25,25 +25,24 @@ The quickest way to get started is to install the wheel directly from a release 
 
 .. code-block:: console
 
-	(venv) $ pip install https://github.com/bradley-smith-gpa/sphinx-test/releases/download/0.0/ifrs16-0.0.1-py3-none-any.whl
+	(venv) $ pip install https://github.com/bradley-smith-gpa/sphinx-test/releases/latest
 
 You can verify that the package has been installed by listing your dependencies
 
 .. code-block:: console
 
 	(venv) $ pip freeze
-	ifrs16 @ https://github.com/bradley-smith-gpa/sphinx-test/releases/download/0.0/ifrs16-0.0.1-py3-none-any.whl
+	ifrs16 @ https://github.com/bradley-smith-gpa/sphinx-test/releases/<latest-wheel-file>.whl
 
 GitHub Download (Option 2)
 --------------------------
 
-#. Find the latest release from GitHub
-#. Download the wheel file and save it to a location on your computer
+#. :wheel_url:`Download the wheel  <>` from GitHub and save it to a location on your computer
 #. Install the wheel using pip:
 
 .. code-block:: console
 
-	(venv) $ pip install path/to/your/directory/ifrs16-0.0.1-py3-none-any.whl
+	(venv) $ pip install path/to/your/directory/<latest-wheel-file>.whl
 
 You can verify that the package has been installed by listing your dependencies
 
@@ -51,7 +50,7 @@ You can verify that the package has been installed by listing your dependencies
 
 	(venv) $ pip freeze
 	...
-	ifrs16 @ file:///path/to/your/directory/ifrs16-0.0.1-py3-none-any.whl
+	ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
 	...
 
 Notice that the URI starts with the ``file:///`` since we are referencing
@@ -72,7 +71,7 @@ Build from Source Code (Option 3)
 
 .. code-block:: console
 
-	(venv) $ pip install path/to/your/directory/ifrs16-0.0.1-py3-none-any.whl
+	(venv) $ pip install path/to/your/directory/<latest-wheel-file>.whl
 
 You can verify that the package has been installed by listing your dependencies
 
@@ -80,7 +79,7 @@ You can verify that the package has been installed by listing your dependencies
 
 	(venv) $ pip freeze
 	...
-	ifrs16 @ file:///path/to/your/directory/ifrs16-0.0.1-py3-none-any.whl
+	ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
 	...
 
 Notice that the URI starts with the ``file:///`` since we are referencing

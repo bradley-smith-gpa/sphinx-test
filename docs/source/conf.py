@@ -35,6 +35,7 @@ extensions = [
     'sphinx.ext.doctest',
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
+    'sphinx.ext.extlinks',
 ]
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
@@ -62,3 +63,11 @@ html_favicon = f'{favicon_path}'
 
 logo_path = source_code_abs_path / 'graphics/favicon.png'
 html_logo = f'{logo_path}'
+
+
+extlinks = {
+    'wheel_url': (
+        f'https://github.com/bradley-smith-gpa/sphinx-test/releases/download/0.0/ifrs16-{version}-py3-none-any.whl',
+        'wheel version %s'
+    )
+}
