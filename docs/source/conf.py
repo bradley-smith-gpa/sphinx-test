@@ -57,3 +57,6 @@ html_static_path = ['_static']
 
 favicon_path = source_code_abs_path / 'graphics/favicon.png'
 html_favicon = f'{favicon_path}'
+
+logo_path = source_code_abs_path / 'graphics/favicon.png'
+html_logo = f'{logo_path}'
