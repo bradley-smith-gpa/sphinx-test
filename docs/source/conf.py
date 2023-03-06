@@ -10,11 +10,11 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 
-import os
 import sys
-source_code_relative_path = '../..'
-source_code_abs_path = os.path.abspath(source_code_relative_path)
-sys.path.insert(0, source_code_abs_path)
+from pathlib import Path
+source_code_relative_path = Path('../..')
+source_code_abs_path = source_code_relative_path.resolve()
+sys.path.insert(0, f'{source_code_abs_path}')
 
 
 # -- Project information -----------------------------------------------------
