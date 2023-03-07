@@ -3,9 +3,9 @@ Installation
 
 Overview
 --------
-Before the ifrs16 package can be used, it must be installed on your computer.
-The ifrs16 is not currently hosted on `PyPi`_ and instead involves installing
-it from a pre-built wheel. The wheel is a pre-made file of the ifrs16 source code to be
+Before the **ifrs16** package can be used, it must be installed on your computer.
+The **ifrs16** is not currently hosted on `PyPi`_ and instead involves installing
+it from a pre-built wheel. The wheel is a pre-made file of the **ifrs16** source code to be
 installed.
 
 .. _`PyPi`: https://pypi.org/
