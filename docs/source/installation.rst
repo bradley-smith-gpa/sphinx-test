@@ -22,10 +22,12 @@ The quickest way to get started is to install the wheel directly from a release 
 
 #. Find the latest release from GitHub
 #. Install it using pip:
+	
+	.. container:: highlight
 
-	.. code-block:: console
-
-		pip install https://github.com/bradley-smith-gpa/sphinx-test/releases/latest
+		.. parsed-literal::
+		
+			pip install \ |wheel|\ 
 
 You can verify that the package has been installed by listing your dependencies
 

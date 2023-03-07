@@ -64,7 +64,7 @@ html_favicon = f'{favicon_path}'
 
 logo_path = source_code_abs_path / 'graphics/favicon.png'
 html_logo = f'{logo_path}'
-
+copybutton_selector = 'div.highlight pre, pre.literal-block'
 
 extlinks = {
     'wheel_url': (
@@ -72,3 +72,7 @@ extlinks = {
         'wheel version %s'
     )
 }
+
+rst_epilog = f"""
+.. |wheel_url| replace:: https://github.com/bradley-smith-gpa/sphinx-test/releases/latest/download/ifrs16-{version}-py3-none-any.whl
+"""
