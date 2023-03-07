@@ -27,7 +27,7 @@ The quickest way to get started is to install the wheel directly from a release 
 
 		.. parsed-literal::
 		
-			pip install \ |wheel|\ 
+			pip install \ |wheel_url|\ 
 
 You can verify that the package has been installed by listing your dependencies
 
