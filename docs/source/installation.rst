@@ -62,8 +62,8 @@ You can verify that the package has been installed by listing your dependencies
 
 		ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
 
-Notice that the URI starts with the ``file:///`` since we are referencing
-the wheel file locally.
+	Notice that the URI starts with the ``file:///`` since we are referencing
+	the wheel file locally.
 
 Build from Source Code (Option 3)
 ---------------------------------
@@ -94,5 +94,5 @@ You can verify that the package has been installed by listing your dependencies
 
 		ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
 
-Notice that the URI starts with the ``file:///`` since we are referencing
-the wheel file locally.
+	Notice that the URI starts with the ``file:///`` since we are referencing
+	the wheel file locally.
