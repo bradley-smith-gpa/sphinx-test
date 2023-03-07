@@ -4,17 +4,14 @@ Installation
 Overview
 --------
 Before the **ifrs16** package can be used, it must be installed on your computer.
-The **ifrs16** is not currently hosted on `PyPi`_ and instead involves installing
-it from a pre-built wheel. The wheel is a pre-made file of the **ifrs16** source code to be
-installed.
+The **ifrs16** package is not hosted on `PyPi <https://pypi.org/>`_ and instead involves installing
+it from a wheel. The wheel is a pre-built file of the **ifrs16** package itself.
 
-.. _`PyPi`: https://pypi.org/
+There are three options available to get the wheel:
 
-So there are three options available to get the wheel:
-
-#. via an URL to GitHub where it is hosted (*recommended*)
-#. download wheel from GitHub manually
-#. build the wheel yourself from the source code
+#. :ref:`via an URL to GitHub where it is hosted <installation:GitHub URL (Option 1)>` (*recommended*)
+#. :ref:`download wheel from GitHub manually <installation:GitHub Download (Option 2)>`
+#. :ref:`build the wheel yourself from the source code <installation:Build from Source Code (Option 3)>`
 
 GitHub URL (Option 1)
 ---------------------

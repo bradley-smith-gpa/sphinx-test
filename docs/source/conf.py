@@ -36,6 +36,7 @@ extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.autosummary',
     'sphinx.ext.extlinks',
+    'sphinx.ext.autosectionlabel',
     'sphinx_copybutton',
 ]
 # Add any paths that contain templates here, relative to this directory.
@@ -76,3 +77,5 @@ extlinks = {
 rst_epilog = f"""
 .. |wheel_url| replace:: https://github.com/bradley-smith-gpa/sphinx-test/releases/latest/download/ifrs16-{version}-py3-none-any.whl
 """
+
+autosectionlabel_prefix_document = True
