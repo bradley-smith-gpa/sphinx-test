@@ -45,19 +45,19 @@ GitHub Download (Option 2)
 #. :wheel_url:`Download the wheel  <>` from GitHub and save it to a location on your computer
 #. Install the wheel using pip:
 
-.. code-block:: console
+	.. code-block:: console
 
-	pip install path/to/your/directory/<latest-wheel-file>.whl
+		pip install path/to/your/directory/<latest-wheel-file>.whl
 
 You can verify that the package has been installed by listing your dependencies
 
-.. code-block:: console
+	.. code-block:: console
 
-	pip freeze
+		pip freeze
 
-.. code-block:: output
+	.. code-block:: output
 
-	ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
+		ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
 
 Notice that the URI starts with the ``file:///`` since we are referencing
 the wheel file locally.
@@ -81,13 +81,13 @@ Build from Source Code (Option 3)
 
 You can verify that the package has been installed by listing your dependencies
 
-.. code-block:: console
+	.. code-block:: console
 
-	pip freeze
+		pip freeze
 
-.. code-block:: output
+	.. code-block:: output
 
-	ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
+		ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
 
 Notice that the URI starts with the ``file:///`` since we are referencing
 the wheel file locally.
