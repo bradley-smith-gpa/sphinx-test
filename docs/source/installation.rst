@@ -23,16 +23,16 @@ The quickest way to get started is to install the wheel directly from a release 
 #. Find the latest release from GitHub
 #. Install it using pip:
 
-.. code-block:: console
+	.. code-block:: console
 
-	(venv) $ pip install https://github.com/bradley-smith-gpa/sphinx-test/releases/latest
+		(venv) $ pip install https://github.com/bradley-smith-gpa/sphinx-test/releases/latest
 
 You can verify that the package has been installed by listing your dependencies
 
-.. code-block:: console
+	.. code-block:: console
 
-	(venv) $ pip freeze
-	ifrs16 @ https://github.com/bradley-smith-gpa/sphinx-test/releases/<latest-wheel-file>.whl
+		(venv) $ pip freeze
+		ifrs16 @ https://github.com/bradley-smith-gpa/sphinx-test/releases/<latest-wheel-file>.whl
 
 GitHub Download (Option 2)
 --------------------------
@@ -62,16 +62,16 @@ Build from Source Code (Option 3)
 #. Navigate to the repo directory in your command line (i.e. where the ``pyproject.toml`` file is),
 #. Run the following command
 
-.. code-block:: console
+	.. code-block:: console
 
-	(venv) $ python -m build
+		(venv) $ python -m build
 
 #. Navigate to the ``dist`` folder which should contain a wheel file
 #. Install the wheel using pip:
 
-.. code-block:: console
+	.. code-block:: console
 
-	(venv) $ pip install path/to/your/directory/<latest-wheel-file>.whl
+		(venv) $ pip install path/to/your/directory/<latest-wheel-file>.whl
 
 You can verify that the package has been installed by listing your dependencies
 
