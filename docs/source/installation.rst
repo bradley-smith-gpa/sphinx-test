@@ -20,8 +20,7 @@ GitHub URL (Option 1)
 ---------------------
 The quickest way to get started is to install the wheel directly from a release on GitHub.
 
-#. Find the latest release from GitHub
-#. Install it using pip:
+#. Install using the following pip command:
 	
 	.. container:: highlight
 
