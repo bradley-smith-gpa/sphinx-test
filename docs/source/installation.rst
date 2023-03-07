@@ -28,6 +28,8 @@ The quickest way to get started is to install the wheel directly from a release 
 		
 			pip install \ |wheel_url|\ 
 
+The **ifrs16** package should be installed now.
+
 You can verify that the package has been installed by listing your dependencies
 
 	.. code-block:: console
@@ -47,6 +49,8 @@ GitHub Download (Option 2)
 	.. code-block:: console
 
 		pip install path/to/your/directory/<latest-wheel-file>.whl
+
+The **ifrs16** package should be installed now.
 
 You can verify that the package has been installed by listing your dependencies
 
@@ -77,6 +81,8 @@ Build from Source Code (Option 3)
 	.. code-block:: console
 
 		pip install path/to/your/directory/<latest-wheel-file>.whl
+
+The **ifrs16** package should be installed now.
 
 You can verify that the package has been installed by listing your dependencies
 
