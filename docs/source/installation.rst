@@ -25,13 +25,13 @@ The quickest way to get started is to install the wheel directly from a release 
 
 	.. code-block:: console
 
-		(venv) $ pip install https://github.com/bradley-smith-gpa/sphinx-test/releases/latest
+		pip install https://github.com/bradley-smith-gpa/sphinx-test/releases/latest
 
 You can verify that the package has been installed by listing your dependencies
 
 	.. code-block:: console
 
-		(venv) $ pip freeze
+		pip freeze
 		ifrs16 @ https://github.com/bradley-smith-gpa/sphinx-test/releases/<latest-wheel-file>.whl
 
 GitHub Download (Option 2)
@@ -42,13 +42,13 @@ GitHub Download (Option 2)
 
 .. code-block:: console
 
-	(venv) $ pip install path/to/your/directory/<latest-wheel-file>.whl
+	pip install path/to/your/directory/<latest-wheel-file>.whl
 
 You can verify that the package has been installed by listing your dependencies
 
 .. code-block:: console
 
-	(venv) $ pip freeze
+	pip freeze
 	...
 	ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
 	...
@@ -64,20 +64,20 @@ Build from Source Code (Option 3)
 
 	.. code-block:: console
 
-		(venv) $ python -m build
+		python -m build
 
 #. Navigate to the ``dist`` folder which should contain a wheel file
 #. Install the wheel using pip:
 
 	.. code-block:: console
 
-		(venv) $ pip install path/to/your/directory/<latest-wheel-file>.whl
+		pip install path/to/your/directory/<latest-wheel-file>.whl
 
 You can verify that the package has been installed by listing your dependencies
 
 .. code-block:: console
 
-	(venv) $ pip freeze
+	pip freeze
 	...
 	ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
 	...
