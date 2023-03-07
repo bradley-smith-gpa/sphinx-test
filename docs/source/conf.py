@@ -69,7 +69,7 @@ copybutton_selector = 'div.highlight pre, pre.literal-block'
 extlinks = {
     'wheel_url': (
         f'https://github.com/bradley-smith-gpa/sphinx-test/releases/latest/download/ifrs16-{version}-py3-none-any.whl',
-        'wheel version %s'
+        None
     )
 }
 
