@@ -34,6 +34,9 @@ You can verify that the package has been installed by listing your dependencies
 	.. code-block:: console
 
 		pip freeze
+	
+	.. code-block:: output
+
 		ifrs16 @ https://github.com/bradley-smith-gpa/sphinx-test/releases/<latest-wheel-file>.whl
 
 GitHub Download (Option 2)
@@ -51,9 +54,10 @@ You can verify that the package has been installed by listing your dependencies
 .. code-block:: console
 
 	pip freeze
-	...
+
+.. code-block:: output
+
 	ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
-	...
 
 Notice that the URI starts with the ``file:///`` since we are referencing
 the wheel file locally.
@@ -80,9 +84,10 @@ You can verify that the package has been installed by listing your dependencies
 .. code-block:: console
 
 	pip freeze
-	...
+
+.. code-block:: output
+
 	ifrs16 @ file:///path/to/your/directory/<latest-wheel-file>.whl
-	...
 
 Notice that the URI starts with the ``file:///`` since we are referencing
 the wheel file locally.
