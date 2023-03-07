@@ -68,7 +68,7 @@ html_logo = f'{logo_path}'
 
 extlinks = {
     'wheel_url': (
-        f'https://github.com/bradley-smith-gpa/sphinx-test/releases/download/{version}/ifrs16-{version}-py3-none-any.whl',
+        f'https://github.com/bradley-smith-gpa/sphinx-test/releases/latest/download/ifrs16-{version}-py3-none-any.whl',
         'wheel version %s'
     )
 }
